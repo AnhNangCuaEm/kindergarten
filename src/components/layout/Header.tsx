@@ -35,7 +35,7 @@ export default function Header() {
 
     return (
         <>
-            <header className="w-full max-w-[90vw] sm:max-w-4xl flex justify-center mx-4 sm:mx-0 mt-4 mb-4 sm:mb-8">
+            <header className="fixed w-full max-w-[90vw] sm:max-w-3xl flex justify-center mx-4 sm:mx-0 mt-4 mb-4 sm:mb-8 z-99">
                 <GlassHeader className="h-fit justify-between">
                     <div className="flex items-center justify-between w-full">
                         <Link href="/" className="flex items-center">

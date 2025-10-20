@@ -11,3 +11,6 @@ export type { GlassButtonProps } from './GlassButton';
 
 export { default as GlassCard } from './GlassCard';
 export type { GlassCardProps } from './GlassCard';
+
+// Hero animations
+export { default as HeroScrollShrink } from './HeroScrollShrink';

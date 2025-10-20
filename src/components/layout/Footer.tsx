@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className="flex flex-col items-center pt-8 pb-4 mt-8 w-full bg-theme-600 text-white">
             <div>
-                <div className="flex flex-col sm:flex-row gap-8 sm:gap-16 mb-4">
+                <div className="flex flex-col sm:flex-row gap-8 sm:gap-24 mb-4">
                     <div>
                         <Image src={"/logo.svg"} alt="Logo" width={200} height={100} className="mb-2"/>
                         <p>〒123-4567 東京都にこにこ区</p>
