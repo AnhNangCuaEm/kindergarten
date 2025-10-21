@@ -56,7 +56,7 @@ export default function Header() {
                                     <li key={item.href}>
                                         <Link
                                             href={item.href}
-                                            className="hover:text-theme-200 transition-colors duration-300"
+                                            className="hover:text-theme-400 transition-colors duration-300"
                                         >
                                             {item.label}
                                         </Link>
@@ -158,7 +158,7 @@ export default function Header() {
 
                         {/* Contact info */}
                         <div className="mt-8 pt-6 border-t border-gray-300">
-                            <p className="text-sm text-gray-700">
+                            <p className="text-sm font-semibold text-gray-600">
                                 お問い合わせ
                             </p>
                             <div className="flex gap-1">

@@ -27,6 +27,7 @@ const GlassHeader: React.FC<GlassHeaderProps> = ({
   brightness = 50,
   opacity = 0.93,
   blur = 11,
+  displace = 1.5,
   className = '',
   ...rest
 }) => {
@@ -38,6 +39,7 @@ const GlassHeader: React.FC<GlassHeaderProps> = ({
       brightness={brightness}
       opacity={opacity}
       blur={blur}
+      displace={displace}
       className={`w-full px-2 py-2 ${className}`}
       {...rest}
     >
