@@ -7,12 +7,12 @@ export default function Footer() {
                 <div className="flex flex-col sm:flex-row gap-8 sm:gap-24 mb-4">
                     <div>
                         <Image src={"/logo.svg"} alt="Logo" width={200} height={100} className="mb-2"/>
-                        <p>〒123-4567 東京都にこにこ区</p>
-                        <p>わくわく町 1-2-3</p>
+                        <p>〒160-0023 東京都新宿区</p>
+                        <p>西新宿1-7-3</p>
                     </div>
                     <div className="flex flex-col">
                         <h3 className="text-xl font-semibold mb-2">お問い合わせ</h3>
-                        <p>電話: 03-1234-5678</p>
+                        <p>電話: 03-3344-1010</p>
                         <p>FAX: 03-1234-5679</p>
                     </div>
                     <div className="flex flex-col">
@@ -23,7 +23,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="w-full text-center border-t pt-4 text-sm text-gray-300">
-                    &copy; {new Date().getFullYear()} My Company. All rights reserved.
+                    &copy; {new Date().getFullYear()} Hal Kindergarten. All rights reserved.
                 </div>
             </div>
         </footer>

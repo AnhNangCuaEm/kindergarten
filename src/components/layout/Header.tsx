@@ -1,6 +1,6 @@
 'use client'
 
-import GlassHeader from "../GlassHeader"
+import GlassHeader from "@/components/GlassHeader"
 import Image from "next/image"
 import Link from "next/link"
 import { Sling as Hamburger } from 'hamburger-react'
@@ -19,18 +19,18 @@ export default function Header() {
 
     // Main navigation items
     const mainNavItems = [
-        { href: "#about", label: "園について" },
-        { href: "#life", label: "園での生活" },
-        { href: "#news", label: "お知らせ" },
-        { href: "#enrollment", label: "入園案内" },
+        { href: "/#about", label: "園について" },
+        { href: "/#life", label: "園での生活" },
+        { href: "/#announcements", label: "お知らせ" },
+        { href: "/#enrollment", label: "入園案内" },
     ]
 
     // Additional menu items for the drawer
     const additionalMenuItems = [
-        { href: "#schedule", label: "年間行事" },
-        { href: "#recruitment", label: "採用" },
-        { href: "#access", label: "アクセス" },
-        { href: "#faq", label: "よくある質問" },
+        { href: "/#schedule", label: "年間行事" },
+        { href: "/#recruitment", label: "採用" },
+        { href: "/#access", label: "アクセス" },
+        { href: "/#faq", label: "よくある質問" },
     ]
 
     return (
@@ -202,7 +202,7 @@ export default function Header() {
                                 </button>
                             </div>
                             <p className="text-black font-semibold text-base">
-                                090-1234-9999
+                                03-3344-1010
                             </p>
 
                         </div>

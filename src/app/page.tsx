@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import BackToTop from "@/components/BackToTop";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 export default function Home() {
@@ -24,8 +25,8 @@ export default function Home() {
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-black/10"></div>
-          <div className="relative z-10 flex flex-col items-center gap-6 px-8 md:px-32">
-            <h1 className="text-white leading-20 text-3xl md:text-6xl font-black" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.4)' }}>
+          <div className="relative z-10 flex flex-col items-center gap-6 px-4 md:px-32">
+            <h1 className="text-white leading-8 md:leading-20 text-3xl md:text-6xl font-black" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.4)' }}>
               <TextGenerateEffect words={words} />
             </h1>
             <p className="text-white text-base md:text-lg font-normal leading-relaxed" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>
@@ -157,29 +158,36 @@ export default function Home() {
         </section>
 
         {/* announcement section */}
-        <section id="announcement" className="w-full mb-8">
+        <section id="announcements" className="w-full mb-8">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">お知らせ</h2>
           <div className="max-w-3xl mx-auto space-y-4">
             <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-4">
                 <span className="text-sm font-bold text-white bg-theme-300 rounded-md px-3 py-1">イベント</span>
-                <p className="text-sm text-text-light">2023.10.15</p>
+                <p className="text-sm text-text-light">2024.7.7</p>
               </div>
-              <a className="block mt-2 text-lg font-bold text-text-main hover:text-theme-400 transition-colors duration-300" href="#">来年度の入園説明会を開催します</a>
+              <Link className="block mt-2 text-lg font-bold text-text-main hover:text-theme-400 transition-colors duration-300" href="/announcements">入園説明会～新宿コクーンタワー～</Link>
             </div>
             <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-4">
                 <span className="text-sm font-bold text-white bg-[#ff9d5b] rounded-md px-3 py-1">募集</span>
-                <p className="text-sm text-text-light">2023.10.10</p>
+                <p className="text-sm text-text-light">2024.7.1</p>
               </div>
-              <a className="block mt-2 text-lg font-bold text-text-main hover:text-theme-400 transition-colors duration-300" href="#">未就園児親子教室（ひよこ組）の参加者募集について</a>
+              <Link className="block mt-2 text-lg font-bold text-text-main hover:text-theme-400 transition-colors duration-300" href="/announcements">未就園児親子教室（ひよこ組）の参加者募集について</Link>
+            </div>
+            <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
+              <div className="flex items-center gap-4">
+                <span className="text-sm font-bold text-white bg-[#ff9d5b] rounded-md px-3 py-1">募集</span>
+                <p className="text-sm text-text-light">2024.6.25</p>
+              </div>
+              <Link className="block mt-2 text-lg font-bold text-text-main hover:text-theme-400 transition-colors duration-300" href="/announcements">親と子の絵画教室 参加者募集</Link>
             </div>
             <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-4">
                 <span className="text-sm font-bold text-white bg-[#a5e4ff] rounded-md px-3 py-1">お知らせ</span>
-                <p className="text-sm text-text-light">2023.09.28</p>
+                <p className="text-sm text-text-light">2024.6.5</p>
               </div>
-              <a className="block mt-2 text-lg font-bold text-text-main hover:text-theme-400 transition-colors duration-300" href="#">運動会は予定通り開催いたします</a>
+              <Link className="block mt-2 text-lg font-bold text-text-main hover:text-theme-400 transition-colors duration-300" href="/announcements">運幼年消防クラブ 発会式</Link>
             </div>
           </div>
           <Link
@@ -193,6 +201,7 @@ export default function Home() {
         </section>
       </main>
       <Footer />
+      <BackToTop />
     </div>
   );
 }

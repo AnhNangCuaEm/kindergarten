@@ -26,8 +26,8 @@ const GlassHeader: React.FC<GlassHeaderProps> = ({
   borderRadius = 48,
   brightness = 50,
   opacity = 0.93,
-  blur = 11,
-  displace = 1.5,
+  blur = 8,
+  displace = 2,
   className = '',
   ...rest
 }) => {
