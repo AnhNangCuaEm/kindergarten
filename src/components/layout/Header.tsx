@@ -22,14 +22,14 @@ export default function Header() {
         { href: "/#about", label: "園について" },
         { href: "/#life", label: "園での生活" },
         { href: "/#announcements", label: "お知らせ" },
-        { href: "/#enrollment", label: "入園案内" },
+        { href: "/enrollment", label: "入園案内" },
     ]
 
     // Additional menu items for the drawer
     const additionalMenuItems = [
         { href: "/#schedule", label: "年間行事" },
         { href: "/#recruitment", label: "採用" },
-        { href: "/#access", label: "アクセス" },
+        { href: "/access", label: "アクセス" },
         { href: "/#faq", label: "よくある質問" },
     ]
 
@@ -41,7 +41,7 @@ export default function Header() {
                         <Link href="/" className="flex items-center">
                             <Image
                                 src="/logo.svg"
-                                alt="Site Logo"
+                                alt="サイトロゴ"
                                 width={200}
                                 height={80}
                                 className="w-42 h-auto"
@@ -51,7 +51,7 @@ export default function Header() {
 
                         {/* Desktop Navigation - Hidden on mobile */}
                         <nav className="hidden md:block">
-                            <ul className="flex mr-2 space-x-4 text-lg font-semibold text-black">
+                            <ul className="flex space-x-6 text-lg font-semibold text-black">
                                 {mainNavItems.map((item) => (
                                     <li key={item.href}>
                                         <Link

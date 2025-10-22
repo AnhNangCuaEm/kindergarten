@@ -44,6 +44,49 @@ export default function AnnouncementsPage() {
                         </div>
                         <p className="block mt-2 text-lg font-bold text-text-main">花見イベントを開催します</p>
                     </div>
+                    <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
+                        <div className="flex items-center gap-4">
+                            <span className="text-sm font-bold text-white bg-theme-300 rounded-md px-3 py-1">イベント</span>
+                            <p className="text-sm text-text-light">2024.3.21</p>
+                        </div>
+                        <p className="block mt-2 text-lg font-bold text-text-main">花見イベントを開催します</p>
+                    </div>
+                    <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
+                        <div className="flex items-center gap-4">
+                            <span className="text-sm font-bold text-white bg-[#a5e4ff] rounded-md px-3 py-1">お知らせ</span>
+                            <p className="text-sm text-text-light">2024.3.10</p>
+                        </div>
+                        <p className="block mt-2 text-lg font-bold text-text-main">2024年度 入園式について</p>
+                    </div>
+                    <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
+                        <div className="flex items-center gap-4">
+                            <span className="text-sm font-bold text-white bg-[#ff9d5b] rounded-md px-3 py-1">募集</span>
+                            <p className="text-sm text-text-light">2024.2.28</p>
+                        </div>
+                        <p className="block mt-2 text-lg font-bold text-text-main">2024年度 新入園児募集について</p>
+                    </div>
+                    <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
+                        <div className="flex items-center gap-4">
+                            <span className="text-sm font-bold text-white bg-theme-300 rounded-md px-3 py-1">イベント</span>
+                            <p className="text-sm text-text-light">2024.2.10</p>
+                        </div>
+                        <p className="block mt-2 text-lg font-bold text-text-main">もちつき大会を開催しました</p>
+                    </div>
+                    <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
+                        <div className="flex items-center gap-4">
+                            <span className="text-sm font-bold text-white bg-[#a5e4ff] rounded-md px-3 py-1">お知らせ</span>
+                            <p className="text-sm text-text-light">2024.1.20</p>
+                        </div>
+                        <p className="block mt-2 text-lg font-bold text-text-main">冬休み期間のお預かり保育について</p>
+                    </div>
+                    <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
+                        <div className="flex items-center gap-4">
+                            <span className="text-sm font-bold text-white bg-theme-300 rounded-md px-3 py-1">イベント</span>
+                            <p className="text-sm text-text-light">2023.12.15</p>
+                        </div>
+                        <p className="block mt-2 text-lg font-bold text-text-main">クリスマス発表会を開催しました</p>
+                    </div>
+                    {/* end of announcements */}
                     {/* end of announcements */}
                     <div className="flex items-center justify-center gap-4 mt-8">
                         <hr className="flex-1 border-black" />

@@ -15,10 +15,10 @@ export default function Home() {
       <Header />
       <main className="flex flex-col flex-1 px-4 pt-32 gap-18 row-start-2 items-center sm:items-start">
         {/* hero section */}
-        <section className="relative w-full py-32 flex items-center justify-center text-center rounded-3xl overflow-hidden shadow-lg">
+        <section className="relative w-full py-32 flex items-center justify-center text-center rounded-3xl overflow-hidden shadow-2xl">
           <Image
             src="/images/img_2.png"
-            alt="Kindergarten Hero"
+            alt="幼稚園の外観写真"
             width={1000}
             height={800}
             className="absolute inset-0 w-full h-full object-cover"
@@ -32,7 +32,7 @@ export default function Home() {
             <p className="text-white text-base md:text-lg font-normal leading-relaxed" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>
               ハル幼稚園へようこそ。私たちは、子ども一人ひとりの個性を大切にし、<br />心豊かな成長をサポートします。
             </p>
-            <button className="py-2 px-4 rounded-full text-black font-semibold bg-theme-200 transition-all duration-300 transform hover:scale-105 cursor-pointer">
+            <button className="py-2 px-4 rounded-full text-black font-semibold bg-gradient-to-r from-theme-200 to-theme-300 transition-all duration-300 transform hover:scale-105 cursor-pointer">
               詳しく見る
             </button>
           </div>
@@ -41,7 +41,7 @@ export default function Home() {
         {/* new building section */}
         <section className="w-full">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">新園舎ニュース</h2>
-          <div className="max-w-4xl mx-auto p-4 rounded-4xl shadow-2xl hover:-translate-y-2 transition-transform duration-300">
+          <div className="max-w-4xl mx-auto p-4 rounded-4xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
             <div className="flex flex-col md:flex-row items-center justify-start gap-6 md:gap-8 rounded-lg overflow-hidden">
               <Image
                 src="/images/img_3.png"
@@ -53,7 +53,7 @@ export default function Home() {
               <div className="flex w-full md:w-1/2 flex-col items-start justify-center gap-3 p-6 md:p-0">
                 <p className="text-xl md:text-2xl font-bold">子どもたちにも大人気☆待望の新園舎が完成しました！</p>
                 <p className="text-base font-normal leading-relaxed text-">明るく広々とした新しい園舎で、子どもたちは毎日元気に遊んでいます。最新の設備と安全な環境で、学びと遊びの可能性がさらに広がります。</p>
-                <button className="py-2 px-4 rounded-full text-black font-semibold bg-theme-200 transition-all duration-300 transform hover:scale-105 cursor-pointer">
+                <button className="py-2 px-4 rounded-full text-black font-semibold bg-gradient-to-r from-theme-200 to-theme-300 transition-all duration-300 transform hover:scale-105 cursor-pointer">
                   もっと見る
                 </button>
               </div>
@@ -61,8 +61,136 @@ export default function Home() {
           </div>
         </section>
 
+        {/* special programs section */}
+        <section id="programs" className="w-full bg-gradient-to-r from-theme-100/20 to-theme-200/20 rounded-4xl shadow-lg p-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold mb-3">特別プログラム</h2>
+              <p className="text-base text-text-light">3才から特別講師による指導！ ※普通保育の中で行いますので、保育料は別途徴収はいたしません。</p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              {/* 絵画造形教育 */}
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl p-6">
+                <div className="flex flex-col items-center gap-4 h-full">
+                  <div className="p-4 rounded-full bg-blue-200/50">
+                    <Image
+                      src="/paint.svg"
+                      alt="絵画造形教育"
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-text-main text-center">絵画造形教育</h3>
+                  <p className="text-sm text-text-light text-center">色彩や形の表現を通じて、創造性と美的感覚を育みます。</p>
+                </div>
+              </div>
+
+              {/* 英語教育 */}
+              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-3xl p-6">
+                <div className="flex flex-col items-center gap-4 h-full">
+                  <div className="p-4 rounded-full bg-green-200/50">
+                    <Image
+                      src="/earth.svg"
+                      alt="英語教育"
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-text-main text-center">英語教育</h3>
+                  <p className="text-sm text-text-light text-center">楽しいアクティビティを通じて、国際感覚を養います。</p>
+                </div>
+              </div>
+
+              {/* プール指導 */}
+              <div className="bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-3xl p-6">
+                <div className="flex flex-col items-center gap-4 h-full">
+                  <div className="p-4 rounded-full bg-cyan-200/50">
+                    <Image
+                      src="/swim.svg"
+                      alt="プール指導"
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-text-main text-center">プール指導</h3>
+                  <p className="text-sm text-text-light text-center">水に親しみ、体力と自信を育てます。</p>
+                </div>
+              </div>
+
+              {/* 体操 */}
+              <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-3xl p-6">
+                <div className="flex flex-col items-center gap-4 h-full">
+                  <div className="p-4 rounded-full bg-orange-200/50">
+                    <Image
+                      src="/gym.svg"
+                      alt="体操"
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-text-main text-center">体操</h3>
+                  <p className="text-sm text-text-light text-center">基本的な運動能力と心身のバランスを養います。</p>
+                </div>
+              </div>
+
+              {/* 声楽指導 */}
+              <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-3xl p-6">
+                <div className="flex flex-col items-center gap-4 h-full">
+                  <div className="p-4 rounded-full bg-pink-200/50">
+                    <Image
+                      src="/music.svg"
+                      alt="声楽指導"
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-text-main text-center">声楽指導</h3>
+                  <p className="text-sm text-text-light text-center">音楽の基礎と表現力を身につけます。</p>
+                </div>
+              </div>
+
+              {/* 中国語 */}
+              <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-3xl p-6">
+                <div className="flex flex-col items-center gap-4 h-full">
+                  <div className="p-4 rounded-full bg-red-200/50">
+                    <Image
+                      src="/china.svg"
+                      alt="中国語"
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-text-main text-center">中国語<br /><span className="text-xs text-text-light font-normal">年長5才のみ</span></h3>
+                  <p className="text-sm text-text-light text-center">アジアの文化と言語に触れます。</p>
+                </div>
+              </div>
+
+              {/* ローマ字指導 */}
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-3xl p-6">
+                <div className="flex flex-col items-center gap-4 h-full">
+                  <div className="p-4 rounded-full bg-purple-200/50">
+                    <Image
+                      src="/abc.svg"
+                      alt="ローマ字指導"
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-text-main text-center">ローマ字指導<br /><span className="text-xs text-text-light font-normal">年長5才のみ</span></h3>
+                  <p className="text-sm text-text-light text-center">文字学習の基礎を養います。</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-8 p-4 bg-white rounded-2xl text-center">
+              <p className="text-sm text-theme-400 font-semibold">専門講師による質の高い教育で、お子様の才能を引き出します！</p>
+            </div>
+          </div>
+        </section>
+
         {/* education section */}
-        <section id="about" className="w-full bg-[#F8F0EA] rounded-4xl">
+        <section id="about" className="w-full bg-[#F8F0EA] rounded-4xl shadow-lg">
           <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-2xl md:text-3xl font-bold text-center mt-12">ハル幼稚園の教育</h2>
             <div className="grid md:grid-cols-3 gap-8 text-center py-16 px-4 ">
@@ -157,6 +285,89 @@ export default function Home() {
           </div>
         </section>
 
+        {/* after-school program section */}
+        <section className="w-full rounded-4xl p-8">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">課外保育「ハル塾」</h2>
+            <p className="text-center text-theme-400 font-semibold mb-12">先進的なテクノロジーとクリエイティビティを融合させた学び</p>
+
+            <div className="bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 rounded-3xl p-8 md:p-12 shadow-lg">
+              <div className="flex flex-col gap-4 items-center">
+                <div>
+                  <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-6">
+                    ハル幼稚園は、<span className="text-theme-400">「塾」</span>も開講しています。
+                  </h3>
+                </div>
+                <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
+                  <div className="w-full md:w-1/2">
+                    <Image
+                      className="aspect-square w-full h-full object-cover rounded-2xl shadow-md"
+                      alt="ハル塾の様子"
+                      src="/images/ilus_5.jpg"
+                      height={300}
+                      width={400}
+                    />
+                  </div>
+
+                  <div className="w-full md:w-1/2">
+                    <div className="space-y-6">
+                      <div className="bg-blue-50 rounded-2xl p-4 border-l-4 border-theme-400">
+                        <div className="flex items-center gap-2">
+                          <Image
+                            src="/goal.svg"
+                            alt="HAL塾ってな～に？アイコン"
+                            width={24}
+                            height={24}
+                          />
+                          <p className="text-base text-text-main font-semibold">HAL塾ってな～に？</p>
+                        </div>
+                        <p className="text-sm text-text-light mt-2">
+                          保育後に専門講師が先進的なテクノロジーとクリエイティビティに焦点を当てた教育を提供します。
+                        </p>
+                      </div>
+
+                      <div className="bg-purple-50 rounded-2xl p-4 border-l-4 border-purple-400">
+                        <div className="flex items-center gap-2">
+                          <Image
+                            src="/bright.svg"
+                            alt="私たちの想いアイコン"
+                            width={24}
+                            height={24}
+                          />
+                          <p className="text-base text-text-main font-semibold">私たちの想い</p>
+                        </div>
+                        <p className="text-sm text-text-light mt-2">
+                          幼少期の教育が将来の可能性を拓くと信じています。遊びを通じた学びで、好奇心と創造力を育みます。
+                        </p>
+                      </div>
+
+                      <div className="bg-pink-50 rounded-2xl p-4 border-l-4 border-pink-400">
+                        <div className="flex items-center gap-2">
+                          <Image
+                            src="/books.svg"
+                            alt="カリキュラムの特徴アイコン"
+                            width={24}
+                            height={24}
+                          />
+                          <p className="text-base text-text-main font-semibold">カリキュラムの特徴</p>
+                        </div>
+                        <p className="text-sm text-text-light mt-2">
+                          成長段階に合わせた設計。学習、芸術、体育など幅広い分野で多様なスキルを習得します。
+                        </p>
+                      </div>
+                    </div>
+
+                    <button className="mt-8 py-3 px-6 rounded-full font-bold bg-gradient-to-r from-theme-400 to-blue-500 transition-all duration-300 transform hover:scale-105 cursor-not-allowed shadow-lg">
+                      HAL塾について詳しく知る →
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* announcement section */}
         <section id="announcements" className="w-full mb-8">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">お知らせ</h2>
@@ -192,7 +403,7 @@ export default function Home() {
           </div>
           <Link
             href="/announcements">
-            <button className="mt-8 mx-auto block py-2 px-4 rounded-full bg-theme-200 transition-all duration-300 transform hover:scale-105 cursor-pointer">
+            <button className="mt-8 mx-auto block py-2 px-4 rounded-full bg-gradient-to-r from-theme-200 to-theme-300 transition-all duration-300 transform hover:scale-105 cursor-pointer">
               <p className="text-black font-semibold">
                 その他のお知らせ
               </p>
