@@ -78,6 +78,7 @@ export default function EnrollmentForm() {
             value={formData.childName}
             onChange={handleChange}
             placeholder="例：田中太郎"
+            autoComplete='name'
             required
             className="px-4 py-3 bg-white/80 border border-theme-200/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-theme-200 focus:border-transparent transition-all"
           />
@@ -96,6 +97,7 @@ export default function EnrollmentForm() {
             value={formData.parentName}
             onChange={handleChange}
             placeholder="例：田中花子"
+            autoComplete='name'
             required
             className="px-4 py-3 bg-white/80 border border-theme-200/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-theme-200 focus:border-transparent transition-all"
           />
@@ -114,6 +116,7 @@ export default function EnrollmentForm() {
             value={formData.email}
             onChange={handleChange}
             placeholder="例：example@email.com"
+            autoComplete='email'
             required
             className="px-4 py-3 bg-white/80 border border-theme-200/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-theme-200 focus:border-transparent transition-all"
           />
@@ -132,6 +135,7 @@ export default function EnrollmentForm() {
             value={formData.phone}
             onChange={handleChange}
             placeholder="例：090-1234-5678"
+            autoComplete='tel'
             required
             className="px-4 py-3 bg-white/80 border border-theme-200/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-theme-200 focus:border-transparent transition-all"
           />

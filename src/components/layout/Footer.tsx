@@ -6,7 +6,7 @@ export default function Footer() {
             <div>
                 <div className="flex flex-col sm:flex-row gap-8 sm:gap-24 mb-4">
                     <div>
-                        <Image src={"/logo.svg"} alt="Logo" width={200} height={100} className="mb-2"/>
+                        <Image src={"/logo_white.svg"} alt="Logo" width={200} height={100} className="mb-2 w-auto h-auto"/>
                         <p>〒160-0023 東京都新宿区</p>
                         <p>西新宿1-7-3</p>
                     </div>
@@ -17,12 +17,12 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-col">
                         <h3 className="text-xl font-semibold mb-2">開園時間</h3>
-                        <p>月曜日〜金曜日: 7:00 - 19:00</p>
-                        <p>土曜日: 8:00 - 18:00</p>
+                        <p>月曜日 ~ 金曜日: 7:00 ~ 19:00</p>
+                        <p>土曜日: 8:00 ~ 18:00</p>
                         <p>日曜日・祝日: 休園</p>
                     </div>
                 </div>
-                <div className="w-full text-center border-t pt-4 text-sm text-gray-300">
+                <div className="w-full text-center border-t pt-4 text-sm text-gray-100">
                     &copy; {new Date().getFullYear()} Hal Kindergarten. All rights reserved.
                 </div>
             </div>

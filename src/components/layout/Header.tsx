@@ -30,7 +30,7 @@ export default function Header() {
         { href: "/#schedule", label: "年間行事" },
         { href: "/#recruitment", label: "採用" },
         { href: "/access", label: "アクセス" },
-        { href: "/#faq", label: "よくある質問" },
+        { href: "/faq", label: "よくある質問" },
     ]
 
     return (

@@ -96,6 +96,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.szh-accordion__item-content {
+  transition: height 0.3s ease-out;
+}
+
 /* modern scrollbar */
 ::-webkit-scrollbar {
   width: 12px;

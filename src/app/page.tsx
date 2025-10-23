@@ -41,7 +41,7 @@ export default function Home() {
         {/* new building section */}
         <section className="w-full">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">新園舎ニュース</h2>
-          <div className="max-w-4xl mx-auto p-4 rounded-4xl shadow-xl hover:-translate-y-2 transition-transform duration-300">
+          <div className="max-w-4xl mx-auto p-4 rounded-4xl shadow-xl border border-theme-200/30 hover:-translate-y-2 transition-transform duration-300">
             <div className="flex flex-col md:flex-row items-center justify-start gap-6 md:gap-8 rounded-lg overflow-hidden">
               <Image
                 src="/images/img_3.png"
@@ -291,7 +291,7 @@ export default function Home() {
             <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">課外保育「ハル塾」</h2>
             <p className="text-center text-theme-400 font-semibold mb-12">先進的なテクノロジーとクリエイティビティを融合させた学び</p>
 
-            <div className="bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 rounded-3xl p-8 md:p-12 shadow-lg">
+            <div className="bg-gradient-to-br from-pink-50/50 via-purple-50/50 to-blue-50/50 rounded-3xl p-8 md:p-12 shadow-lg">
               <div className="flex flex-col gap-4 items-center">
                 <div>
                   <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-6">
@@ -311,7 +311,7 @@ export default function Home() {
 
                   <div className="w-full md:w-1/2">
                     <div className="space-y-6">
-                      <div className="bg-blue-50 rounded-2xl p-4 border-l-4 border-theme-400">
+                      <div className="bg-theme-100/80 rounded-2xl p-4 border-l-4 border-theme-400">
                         <div className="flex items-center gap-2">
                           <Image
                             src="/goal.svg"
@@ -326,7 +326,7 @@ export default function Home() {
                         </p>
                       </div>
 
-                      <div className="bg-purple-50 rounded-2xl p-4 border-l-4 border-purple-400">
+                      <div className="bg-purple-100/80 rounded-2xl p-4 border-l-4 border-purple-400">
                         <div className="flex items-center gap-2">
                           <Image
                             src="/bright.svg"
@@ -341,7 +341,7 @@ export default function Home() {
                         </p>
                       </div>
 
-                      <div className="bg-pink-50 rounded-2xl p-4 border-l-4 border-pink-400">
+                      <div className="bg-pink-100/80 rounded-2xl p-4 border-l-4 border-pink-400">
                         <div className="flex items-center gap-2">
                           <Image
                             src="/books.svg"
@@ -357,7 +357,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <button className="mt-8 py-3 px-6 rounded-full font-bold bg-gradient-to-r from-theme-400 to-blue-500 transition-all duration-300 transform hover:scale-105 cursor-not-allowed shadow-lg">
+                    <button className="mt-8 py-3 px-6 rounded-full font-bold bg-gradient-to-r from-theme-200 to-blue-200 transition-all duration-300 transform hover:scale-105 cursor-not-allowed shadow-lg">
                       HAL塾について詳しく知る →
                     </button>
                   </div>

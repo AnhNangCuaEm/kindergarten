@@ -4,6 +4,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Image from "next/image";
 import EnrollmentForm from "@/components/EnrollmentForm";
+import BackToTop from "@/components/BackToTop";
 
 export default function EnrollmentPage() {
     return (
@@ -135,17 +136,9 @@ export default function EnrollmentPage() {
 
                 {/* Enrollment Steps */}
                 <section className="w-full bg-gradient-to-r from-theme-100/30 to-theme-200/20 shadow-lg rounded-3xl p-4 md:p-12">
-                    <div className="flex justify-center gap-2 items-center mb-8">
-                        <Image
-                            src={"/goal.svg"}
-                            width={48}
-                            height={48}
-                            alt="入園までの流れ"
-                        />
-                        <h2 className="text-3xl md:text-4xl font-bold text-text-main text-center">
-                            入園までの流れ
-                        </h2>
-                    </div>
+                    <h2 className="text-3xl md:text-4xl font-bold text-text-main text-center mb-8">
+                        入園までの流れ
+                    </h2>
                     <div className="grid grid-cols-1 md:grid-cols-7 gap-4">
                         {/* Step 1 */}
                         <div className="flex flex-col items-center gap-4">
@@ -219,14 +212,14 @@ export default function EnrollmentPage() {
                 {/* Contact Section */}
                 <section className="w-full bg-white/50 rounded-3xl p-8 md:p-12 shadow-md border border-theme-200/20">
                     <h2 className="text-2xl font-bold text-text-main mb-8 text-center">
-                        📞 ご質問・ご不明な点は
+                        ご質問・ご不明な点は
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
                         <div>
                             <p className="text-gray-500 font-semibold mb-2">電話でのお問い合わせ</p>
                             <p className="text-2xl font-bold text-theme-200">03-3344-1010</p>
-                            <p className="text-sm text-text-light mt-2">平日 9:00～17:00</p>
-                            <p className="text-sm text-text-light mt-2">土曜日: 8:00 - 18:00</p>
+                            <p className="text-sm text-text-light mt-2">平日 9:00 ~ 17:00</p>
+                            <p className="text-sm text-text-light mt-2">土曜日: 8:00 ~ 18:00</p>
 
                         </div>
                         <div>
@@ -238,6 +231,7 @@ export default function EnrollmentPage() {
                 </section>
             </main>
             <Footer />
+            <BackToTop />
         </div>
     );
 }
