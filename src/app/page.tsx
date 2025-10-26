@@ -181,6 +181,22 @@ export default function Home() {
                   <p className="text-sm text-text-light text-center">文字学習の基礎を養います。</p>
                 </div>
               </div>
+
+              {/* 自然教育 */}
+              <div className="bg-gradient-to-br from-green-100 to-theme-300 rounded-3xl p-6">
+                <div className="flex flex-col items-center gap-4 h-full">
+                  <div className="p-4 rounded-full bg-theme-300/50">
+                    <Image
+                      src="/tree.svg"
+                      alt="自然教育"
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-text-main text-center">自然教育<br /><span className="text-xs text-text-light font-normal">年長5才のみ</span></h3>
+                  <p className="text-sm text-text-light text-center">自然とのふれあいを通じて、感性を育みます。</p>
+                </div>
+              </div>
             </div>
 
             <div className="mt-8 p-4 bg-white rounded-2xl text-center">
@@ -238,7 +254,7 @@ export default function Home() {
         <section className="w-full">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">今日の幼稚園</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="group relative rounded-3xl overflow-hidden shadow-soft cursor-pointer transform hover:-translate-y-2 transition-transform duration-300">
+            <div className="group relative rounded-3xl overflow-hidden shadow-soft transform hover:-translate-y-2 transition-transform duration-300">
               <Image className="aspect-square w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 src="/images/ilus_1.png"
                 height={200}
@@ -249,7 +265,7 @@ export default function Home() {
                 <p className="text-white font-bold">ブロックあそび</p>
               </div>
             </div>
-            <div className="group relative rounded-3xl overflow-hidden shadow-soft cursor-pointer transform hover:-translate-y-2 transition-transform duration-300">
+            <div className="group relative rounded-3xl overflow-hidden shadow-soft transform hover:-translate-y-2 transition-transform duration-300">
               <Image className="aspect-square w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 alt="子供がカラフルな絵を描いている様子。"
                 src="/images/ilus_2.png"
@@ -260,7 +276,7 @@ export default function Home() {
                 <p className="text-white font-bold">お絵かき</p>
               </div>
             </div>
-            <div className="group relative rounded-3xl overflow-hidden shadow-soft cursor-pointer transform hover:-translate-y-2 transition-transform duration-300">
+            <div className="group relative rounded-3xl overflow-hidden shadow-soft transform hover:-translate-y-2 transition-transform duration-300">
               <Image className="aspect-square w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 alt="子供たちが外で走り回って遊んでいる様子。"
                 src="/images/ilus_3.png"
@@ -271,7 +287,7 @@ export default function Home() {
                 <p className="text-white font-bold">外あそび</p>
               </div>
             </div>
-            <div className="group relative rounded-3xl overflow-hidden shadow-soft cursor-pointer transform hover:-translate-y-2 transition-transform duration-300">
+            <div className="group relative rounded-3xl overflow-hidden shadow-soft transform hover:-translate-y-2 transition-transform duration-300">
               <Image className="aspect-square w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 alt="子供たちが先生の読み聞かせを聞いている様子。"
                 src="/images/ilus_4.png"

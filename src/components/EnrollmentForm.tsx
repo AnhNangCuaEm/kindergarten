@@ -134,7 +134,7 @@ export default function EnrollmentForm() {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            placeholder="例：090-1234-5678"
+            placeholder="例：09012345678"
             autoComplete='tel'
             required
             className="px-4 py-3 bg-white/80 border border-theme-200/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-theme-200 focus:border-transparent transition-all"

@@ -218,7 +218,7 @@ export default function EnrollmentPage() {
                         <div>
                             <p className="text-gray-500 font-semibold mb-2">電話でのお問い合わせ</p>
                             <p className="text-2xl font-bold text-theme-200">03-3344-1010</p>
-                            <p className="text-sm text-text-light mt-2">平日 9:00 ~ 17:00</p>
+                            <p className="text-sm text-text-light mt-2">平日 7:00 ~ 19:00</p>
                             <p className="text-sm text-text-light mt-2">土曜日: 8:00 ~ 18:00</p>
 
                         </div>
