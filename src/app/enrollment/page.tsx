@@ -13,7 +13,7 @@ export default function EnrollmentPage() {
             <main className="flex flex-col flex-1 px-4 pt-24 pb-12 gap-16 items-center w-full max-w-6xl mx-auto">
                 {/* Hero Section */}
                 <section className="w-full text-center pt-8">
-                    <h1 className="text-4xl md:text-5xl font-black text-text-main mb-4">
+                    <h1 className="text-3xl md:text-4xl font-bold text-theme-600 mb-4">
                         入園案内・申込
                     </h1>
                     <p className="text-lg text-text-light max-w-3xl mx-auto">

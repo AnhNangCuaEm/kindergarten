@@ -8,7 +8,7 @@ export default function AccessPage() {
             <Header />
             <main className="flex flex-col flex-1 px-4 pt-32 row-start-2 items-center sm:items-start">
                 <div className="w-full md:w-4xl">
-                    <h1 className="w-full text-3xl text-center font-bold mb-12">アクセス</h1>
+                    <h1 className="w-full text-3xl md:text-4xl text-center font-bold text-theme-600 mb-12">アクセス</h1>
                     <h2 className="text-lg text-center font-semibold mb-4">
                         〒160-0023 東京都新宿区西新宿1-7-3
                     </h2>

@@ -46,7 +46,7 @@ export default function FAQPage() {
             <main className="flex flex-col flex-1 px-4 pt-24 pb-12 gap-16 items-center w-full max-w-6xl mx-auto">
                 {/* Hero Section */}
                 <section className="w-full text-center pt-8">
-                    <h1 className="text-3xl font-bold">よくある質問</h1>
+                    <h1 className="text-3xl md:text-4xl font-bold text-theme-600 mb-4">よくある質問</h1>
                 </section>
 
                 <div className="w-full text-lg md:text-2xl rounded-3xl bg-gradient-to-br from-theme-200/10 to-purple-200/10 p-8 shadow-md">

@@ -31,7 +31,7 @@ export default function RecruitPage() {
             <main className="flex flex-col flex-1 px-4 pt-24 pb-12 gap-16 items-center w-full max-w-6xl mx-auto">
                 {/* Hero Section */}
                 <section className="w-full text-center pt-8">
-                    <h1 className="text-3xl md:text-4xl font-bold text-text-main mb-3">採用情報</h1>
+                    <h1 className="text-3xl md:text-4xl font-bold text-theme-600 mb-4">採用情報</h1>
                     <p className="text-base md:text-lg text-text-light">ハル幼稚園では、子どもたちの笑顔とともに成長できる仲間を募集しています</p>
                 </section>
 

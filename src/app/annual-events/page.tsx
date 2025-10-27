@@ -259,7 +259,7 @@ export default function AnnualEventsPage() {
             <main className="flex flex-col flex-1 px-4 pt-32 gap-12 w-full max-w-6xl mx-auto pb-12">
                 {/* Header Section */}
                 <div className="text-center">
-                    <h1 className="text-4xl md:text-5xl font-bold text-theme-600 mb-4">年間行事</h1>
+                    <h1 className="text-3xl md:text-4xl font-bold text-theme-600 mb-4">年間行事</h1>
                     <p className="text-lg text-text-light mb-2">ハル幼稚園での1年間のイベント</p>
                     <p className="text-base text-text-light">子どもたちの成長と季節の移ろいを感じながら、様々な体験ができます。</p>
                 </div>

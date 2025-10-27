@@ -20,16 +20,15 @@ export default function Header() {
     // Main navigation items
     const mainNavItems = [
         { href: "/#about", label: "園について" },
-        { href: "/#life", label: "園での生活" },
         { href: "/#announcements", label: "お知らせ" },
         { href: "/enrollment", label: "入園案内" },
+        { href: "/access", label: "アクセス" },
     ]
 
     // Additional menu items for the drawer
     const additionalMenuItems = [
-        { href: "/annual-events", label: "年間行事" },
         { href: "/recruit", label: "採用" },
-        { href: "/access", label: "アクセス" },
+        { href: "/annual-events", label: "年間行事" },
         { href: "/faq", label: "よくある質問" },
     ]
 

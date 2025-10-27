@@ -7,7 +7,7 @@ export default function AnnouncementsPage() {
         <div className="flex flex-col items-center min-h-screen">
             <Header />
             <main className="flex flex-col flex-1 px-4 pt-32 gap-12 row-start-2 items-center sm:items-start">
-                <h1 className="w-full text-3xl text-center font-bold">お知らせ</h1>
+                <h1 className="text-3xl md:text-4xl w-full text-center font-bold text-theme-600 mb-4">お知らせ</h1>
                 <div className="max-w-3xl w-fit md:w-3xl mx-auto space-y-4">
                     <div className="p-4 rounded-3xl bg-white/70 shadow-md hover:shadow-lg transition-shadow">
                         <div className="flex items-center gap-4">
