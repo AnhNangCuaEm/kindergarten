@@ -27,8 +27,8 @@ export default function Header() {
 
     // Additional menu items for the drawer
     const additionalMenuItems = [
-        { href: "/#schedule", label: "年間行事" },
-        { href: "/#recruitment", label: "採用" },
+        { href: "/annual-events", label: "年間行事" },
+        { href: "/recruit", label: "採用" },
         { href: "/access", label: "アクセス" },
         { href: "/faq", label: "よくある質問" },
     ]

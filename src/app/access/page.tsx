@@ -7,7 +7,7 @@ export default function AccessPage() {
         <div className="flex flex-col items-center min-h-screen">
             <Header />
             <main className="flex flex-col flex-1 px-4 pt-32 row-start-2 items-center sm:items-start">
-                <div className="w-full md:w-3xl">
+                <div className="w-full md:w-4xl">
                     <h1 className="w-full text-3xl text-center font-bold mb-12">アクセス</h1>
                     <h2 className="text-lg text-center font-semibold mb-4">
                         〒160-0023 東京都新宿区西新宿1-7-3
@@ -34,11 +34,11 @@ export default function AccessPage() {
                         送迎バスは１８＋６コース、停留所は２２０箇所「。自宅のすぐ側まで」を基本に、毎年見直ししています。
                     </h4>
 
-                    <div className="w-full max-w-3xl mb-12 rounded-2xl shadow-lg overflow-hidden">
+                    <div className="w-full max-w-4xl mb-12 rounded-2xl shadow-lg overflow-hidden">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1854.6919055992812!2d139.6966900720314!3d35.69136523272632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188db4f3887ae7%3A0x3d4f3619214cc0ea!2z44Kz44Kv44O844Oz44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1761103267968!5m2!1sja!2sjp"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4827.855015438452!2d139.6974373946253!3d35.68995363895258!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188db4f3887ae7%3A0x3d4f3619214cc0ea!2z44Kz44Kv44O844Oz44K_44Ov44O8!5e1!3m2!1sja!2sjp!4v1761549907561!5m2!1sja!2sjp"
                             width="100%"
-                            height="450"
+                            height="500"
                             style={{ border: 0 }}
                             allowFullScreen={true}
                             loading="lazy"

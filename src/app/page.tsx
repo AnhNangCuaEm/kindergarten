@@ -150,6 +150,22 @@ export default function Home() {
                 </div>
               </div>
 
+              {/* 自然教育 */}
+              <div className="bg-gradient-to-br from-green-100 to-theme-300/30 rounded-3xl p-6">
+                <div className="flex flex-col items-center gap-4 h-full">
+                  <div className="p-4 rounded-full bg-theme-300/50">
+                    <Image
+                      src="/tree.svg"
+                      alt="自然教育"
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold text-text-main text-center">自然教育</h3>
+                  <p className="text-sm text-text-light text-center">自然とのふれあいを通じて、感性を育みます。</p>
+                </div>
+              </div>
+
               {/* 中国語 */}
               <div className="bg-gradient-to-br from-red-50 to-red-100 rounded-3xl p-6">
                 <div className="flex flex-col items-center gap-4 h-full">
@@ -179,22 +195,6 @@ export default function Home() {
                   </div>
                   <h3 className="text-lg font-bold text-text-main text-center">ローマ字指導<br /><span className="text-xs text-text-light font-normal">年長5才のみ</span></h3>
                   <p className="text-sm text-text-light text-center">文字学習の基礎を養います。</p>
-                </div>
-              </div>
-
-              {/* 自然教育 */}
-              <div className="bg-gradient-to-br from-green-100 to-theme-300 rounded-3xl p-6">
-                <div className="flex flex-col items-center gap-4 h-full">
-                  <div className="p-4 rounded-full bg-theme-300/50">
-                    <Image
-                      src="/tree.svg"
-                      alt="自然教育"
-                      width={48}
-                      height={48}
-                    />
-                  </div>
-                  <h3 className="text-lg font-bold text-text-main text-center">自然教育<br /><span className="text-xs text-text-light font-normal">年長5才のみ</span></h3>
-                  <p className="text-sm text-text-light text-center">自然とのふれあいを通じて、感性を育みます。</p>
                 </div>
               </div>
             </div>
