@@ -49,7 +49,7 @@ export default function FAQPage() {
                     <h1 className="text-3xl md:text-4xl font-bold text-theme-600 mb-4">よくある質問</h1>
                 </section>
 
-                <div className="w-full text-lg md:text-2xl rounded-3xl bg-gradient-to-br from-theme-200/10 to-purple-200/10 p-8 shadow-md">
+                <section className="w-full text-lg md:text-2xl rounded-3xl bg-gradient-to-br from-theme-200/10 to-purple-200/10 p-8 shadow-md scroll-animate scroll-fade-up">
                     <Accordion transition transitionTimeout={250} className="flex flex-col space-y-4">
                         {faqs.map((faq, index) => (
                             <AccordionItem
@@ -68,10 +68,10 @@ export default function FAQPage() {
                             </AccordionItem>
                         ))}
                     </Accordion>
-                </div>
+                </section>
 
                 {/* Contact Section */}
-                <section className="w-full bg-white/50 rounded-3xl p-8 md:p-12 shadow-md border border-theme-200/20">
+                <section className="w-full bg-white/50 rounded-3xl p-8 md:p-12 shadow-md border border-theme-200/20 scroll-animate scroll-fade-up">
                     <h2 className="text-2xl font-bold text-text-main mb-8 text-center">
                         ご質問・ご不明な点は
                     </h2>

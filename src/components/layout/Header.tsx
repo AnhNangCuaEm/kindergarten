@@ -3,18 +3,46 @@
 import GlassHeader from "@/components/GlassHeader"
 import Image from "next/image"
 import Link from "next/link"
+import { useRouter, usePathname } from 'next/navigation'
 import { Sling as Hamburger } from 'hamburger-react'
 import { useState } from "react"
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false)
     const [copiedEmail, setCopiedEmail] = useState(false);
+    const router = useRouter();
+    const pathname = usePathname();
 
     // Handle email copy feedback
     const handleEmailCopy = () => {
         setCopiedEmail(true);
         navigator.clipboard.writeText("halkindergarten@gmail.com");
         setTimeout(() => setCopiedEmail(false), 2000);
+    };
+
+    // Handle hash navigation
+    const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+        e.preventDefault();
+        setIsOpen(false);
+        
+        // Check if it's a hash link
+        if (href.startsWith('/#')) {
+            const hash = href.substring(1); // Remove the leading '/'
+            
+            // If we're already on home page
+            if (pathname === '/') {
+                const element = document.querySelector(hash);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            } else {
+                // Navigate to home with hash
+                router.push(href);
+            }
+        } else {
+            // Regular navigation
+            router.push(href);
+        }
     };
 
     // Main navigation items
@@ -55,6 +83,7 @@ export default function Header() {
                                     <li key={item.href}>
                                         <Link
                                             href={item.href}
+                                            onClick={(e) => handleNavClick(e, item.href)}
                                             className="hover:text-theme-400 transition-colors duration-300"
                                         >
                                             {item.label}
@@ -122,8 +151,8 @@ export default function Header() {
                                         <li key={item.href}>
                                             <Link
                                                 href={item.href}
+                                                onClick={(e) => handleNavClick(e, item.href)}
                                                 className="block text-2xl font-bold text-black hover:text-theme-200 transition-colors duration-300"
-                                                onClick={() => setIsOpen(false)}
                                             >
                                                 {item.label}
                                             </Link>

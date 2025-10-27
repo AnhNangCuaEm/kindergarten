@@ -1,5 +1,3 @@
-'use client';
-
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Image from "next/image";
@@ -25,7 +23,7 @@ export default function EnrollmentPage() {
                 <section className="w-full">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {/* 対象年齢 */}
-                        <div className="bg-gradient-to-br from-blue-50 to-blue-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow">
+                        <section className="bg-gradient-to-br from-blue-50 to-blue-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow scroll-animate scroll-fade-right">
                             <div className="flex items-center gap-2 mb-4">
                                 <Image
                                     src={"/kid.svg"}
@@ -49,10 +47,10 @@ export default function EnrollmentPage() {
                                     <span><strong>3才児～5才児：</strong>該当学年のお子様</span>
                                 </li>
                             </ul>
-                        </div>
+                        </section>
 
                         {/* 保育時間 */}
-                        <div className="bg-gradient-to-br from-green-50 to-green-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow">
+                        <section className="bg-gradient-to-br from-green-50 to-green-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow scroll-animate scroll-fade-left scroll-delay-100">
                             <div className="flex items-center gap-2 mb-4">
                                 <Image
                                     src={"/time.svg"}
@@ -76,10 +74,10 @@ export default function EnrollmentPage() {
                                     <span><strong>給食：</strong>週4回（お弁当の日あり）</span>
                                 </li>
                             </ul>
-                        </div>
+                        </section>
 
                         {/* 入園手続き */}
-                        <div className="bg-gradient-to-br from-yellow-50 to-yellow-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow">
+                        <section className="bg-gradient-to-br from-yellow-50 to-yellow-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow scroll-animate scroll-fade-right scroll-delay-200">
                             <div className="flex items-center gap-2 mb-4">
                                 <Image
                                     src={"/note.svg"}
@@ -107,10 +105,10 @@ export default function EnrollmentPage() {
                                     <span>入園契約・書類提出</span>
                                 </li>
                             </ul>
-                        </div>
+                        </section>
 
                         {/* 費用について */}
-                        <div className="bg-gradient-to-br from-pink-50 to-pink-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow">
+                        <section className="bg-gradient-to-br from-pink-50 to-pink-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow scroll-animate scroll-fade-left scroll-delay-300">
                             <div className="flex items-center gap-2 mb-4">
                                 <Image
                                     src={"/money.svg"}
@@ -130,7 +128,7 @@ export default function EnrollmentPage() {
                                     <span>子育て支援制度など各種助成金対象</span>
                                 </li>
                             </ul>
-                        </div>
+                        </section>
                     </div>
                 </section>
 
@@ -141,7 +139,7 @@ export default function EnrollmentPage() {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-7 gap-4">
                         {/* Step 1 */}
-                        <div className="flex flex-col items-center gap-4">
+                        <div className="flex flex-col items-center gap-4 scroll-animate scroll-fade-up">
                             <div className="w-16 h-16 bg-gradient-to-br from-theme-200 to-theme-300 rounded-full flex items-center justify-center text-2xl font-bold text-white shadow-lg">
                                 1
                             </div>
@@ -158,7 +156,7 @@ export default function EnrollmentPage() {
                         </div>
 
                         {/* Step 2 */}
-                        <div className="flex flex-col items-center gap-4">
+                        <div className="flex flex-col items-center gap-4 scroll-animate scroll-fade-up scroll-delay-100">
                             <div className="w-16 h-16 bg-gradient-to-br from-theme-200 to-theme-300 rounded-full flex items-center justify-center text-2xl font-bold text-white shadow-lg">
                                 2
                             </div>
@@ -175,7 +173,7 @@ export default function EnrollmentPage() {
                         </div>
 
                         {/* Step 3 */}
-                        <div className="flex flex-col items-center gap-4">
+                        <div className="flex flex-col items-center gap-4 scroll-animate scroll-fade-up scroll-delay-200">
                             <div className="w-16 h-16 bg-gradient-to-br from-theme-200 to-theme-300 rounded-full flex items-center justify-center text-2xl font-bold text-white shadow-lg">
                                 3
                             </div>
@@ -192,7 +190,7 @@ export default function EnrollmentPage() {
                         </div>
 
                         {/* Step 4 */}
-                        <div className="flex flex-col items-center gap-4">
+                        <div className="flex flex-col items-center gap-4 scroll-animate scroll-fade-up scroll-delay-300">
                             <div className="w-16 h-16 bg-gradient-to-br from-theme-200 to-theme-300 rounded-full flex items-center justify-center text-2xl font-bold text-white shadow-lg">
                                 ✓
                             </div>
@@ -205,12 +203,12 @@ export default function EnrollmentPage() {
                 </section>
 
                 {/* Enrollment Form */}
-                <section className="w-full py-8">
+                <section className="w-full py-8 scroll-animate scroll-fade-up">
                     <EnrollmentForm />
                 </section>
 
                 {/* Contact Section */}
-                <section className="w-full bg-white/50 rounded-3xl p-8 md:p-12 shadow-md border border-theme-200/20">
+                <section className="w-full bg-white/50 rounded-3xl p-8 md:p-12 shadow-md border border-theme-200/20 scroll-animate scroll-fade-up">
                     <h2 className="text-2xl font-bold text-text-main mb-8 text-center">
                         ご質問・ご不明な点は
                     </h2>

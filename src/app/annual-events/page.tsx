@@ -1,5 +1,3 @@
-'use client';
-
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import BackToTop from "@/components/BackToTop";
@@ -270,7 +268,7 @@ export default function AnnualEventsPage() {
                         <h2 className="text-2xl font-bold text-theme-600 mb-6">行事の詳細</h2>
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             {annualEvents.map((monthData, index) => (
-                                <div key={index} className="pb-6">
+                                <section key={index} className={`pb-6 scroll-animate scroll-fade-up scroll-delay-${index * 100}`}>
                                     <h3 className="text-lg font-bold text-theme-600 mb-4 pb-2 border-b-2 border-theme-300">
                                         {monthData.month}
                                     </h3>
@@ -280,7 +278,7 @@ export default function AnnualEventsPage() {
                                                 <div className="flex-shrink-0">
                                                     <div className="w-12 h-12 rounded-full bg-theme-100 flex items-center justify-center">
                                                         <Image
-                                                            src={iconMap[event.icon] || "/goal.svg"}
+                                                            src={iconMap[event.icon]}
                                                             alt={event.name}
                                                             width={24}
                                                             height={24}
@@ -295,14 +293,14 @@ export default function AnnualEventsPage() {
                                             </div>
                                         ))}
                                     </div>
-                                </div>
+                                </section>
                             ))}
                         </div>
                     </div>
                 </div>
 
                 {/* Info Box */}
-                <div className="bg-gradient-to-r from-theme-50 to-theme-100/50 rounded-3xl p-6 md:p-8 border border-theme-200/50">
+                <section className="bg-gradient-to-r from-theme-50 to-theme-100/50 rounded-3xl p-6 md:p-8 border border-theme-200/50 scroll-animate scroll-fade-up">
                     <h3 className="text-xl font-bold text-theme-700 mb-3">📌 ご注意</h3>
                     <ul className="space-y-2 text-text-light">
                         <li className="flex items-start gap-2">
@@ -318,7 +316,7 @@ export default function AnnualEventsPage() {
                             <span>保護者の参加が必要な行事については、事前にお知らせします。</span>
                         </li>
                     </ul>
-                </div>
+                </section>
             </main>
             <Footer />
             <BackToTop />

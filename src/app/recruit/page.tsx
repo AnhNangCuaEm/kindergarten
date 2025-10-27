@@ -36,7 +36,7 @@ export default function RecruitPage() {
                 </section>
 
                 {/* Introduction Section */}
-                <section className="w-full bg-white/50 rounded-3xl p-8 md:p-12 shadow-md border border-theme-200/20">
+                <section className="w-full bg-white/50 rounded-3xl p-8 md:p-12 shadow-md border border-theme-200/20 scroll-animate scroll-fade-up">
                     <h2 className="text-2xl font-bold text-text-main mb-6">私たちについて</h2>
                     <p className="text-base md:text-lg text-text-light leading-relaxed mb-4">
                         ハル幼稚園は、子ども一人ひとりの個性を大切にし、心豊かな成長をサポートする幼稚園です。
@@ -56,7 +56,7 @@ export default function RecruitPage() {
                     <h2 className="text-2xl md:text-3xl font-bold text-center text-text-main mb-12">募集職種</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {jobPositions.map((job, index) => (
-                            <div key={index} className="bg-white/60 rounded-2xl p-6 shadow-md border border-theme-200/20 hover:shadow-lg hover:border-theme-200/40 transition-all duration-300 hover:-translate-y-2">
+                            <div key={index} className={`bg-white/60 rounded-2xl p-6 shadow-md border border-theme-200/20 hover:shadow-lg hover:border-theme-200/40 scroll-animate scroll-fade-up scroll-delay-${index * 100}`}>
                                 <h3 className="text-xl font-bold text-theme-600 mb-2">{job.title}</h3>
                                 <div className="flex gap-2 mb-4">
                                     {job.types.map((type, idx) => (
@@ -83,7 +83,7 @@ export default function RecruitPage() {
                 </section>
 
                 {/* Application Info Section */}
-                <section className="w-full bg-gradient-to-br from-theme-100/20 to-theme-200/20 rounded-3xl p-8 md:p-12">
+                <section className="w-full bg-gradient-to-br from-theme-100/20 to-theme-200/20 rounded-3xl p-8 md:p-12 scroll-animate scroll-fade-up">
                     <h2 className="text-2xl font-bold text-text-main mb-8">応募方法・採用フロー</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div>
@@ -140,7 +140,7 @@ export default function RecruitPage() {
                 </section>
 
                 {/* Benefits Section */}
-                <section className="w-full">
+                <section className="w-full scroll-animate scroll-fade-up">
                     <h2 className="text-2xl md:text-3xl font-bold text-center text-text-main mb-12">待遇・福利厚生</h2>
                     <div className="bg-white/60 rounded-3xl p-8 md:p-12 shadow-md border border-theme-200/20">
                         {/* Working Hours */}
@@ -260,7 +260,7 @@ export default function RecruitPage() {
                 </section>
 
                 {/* Contact Section */}
-                <section className="w-full bg-white/50 rounded-3xl p-8 md:p-12 shadow-md border border-theme-200/20">
+                <section className="w-full bg-white/50 rounded-3xl p-8 md:p-12 shadow-md border border-theme-200/20 scroll-animate scroll-fade-up">
                     <h2 className="text-2xl font-bold text-text-main mb-8 text-center">
                         ご応募・ご質問はこちらから
                     </h2>
