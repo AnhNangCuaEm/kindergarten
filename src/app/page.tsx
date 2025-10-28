@@ -54,7 +54,7 @@ export default function Home() {
               <div className="flex w-full md:w-1/2 flex-col items-start justify-center gap-3 p-6 md:p-0">
                 <p className="text-xl md:text-2xl font-bold">子どもたちにも大人気☆待望の新園舎が完成しました！</p>
                 <p className="text-base font-normal leading-relaxed text-">明るく広々とした新しい園舎で、子どもたちは毎日元気に遊んでいます。最新の設備と安全な環境で、学びと遊びの可能性がさらに広がります。</p>
-                <button className="py-2 px-4 rounded-full text-black font-semibold bg-gradient-to-r from-theme-200 to-theme-300 transition-all duration-300 transform hover:scale-105 cursor-pointer">
+                <button className="py-2 px-4 rounded-full text-black font-semibold bg-gradient-to-r from-theme-200 to-theme-300 transition-all duration-300 transform hover:scale-105 cursor-not-allow shadow-lg">
                   もっと見る
                 </button>
               </div>
@@ -65,7 +65,7 @@ export default function Home() {
         {/* special programs section */}
         <section
           id="programs"
-          className="w-full bg-gradient-to-r from-theme-100/20 to-theme-200/20 rounded-4xl shadow-lg p-8 scroll-animate scroll-fade-up">
+          className="w-full bg-gradient-to-r from-theme-100/20 to-theme-200/20 rounded-4xl shadow-lg p-8">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-2xl md:text-3xl font-bold mb-3">特別プログラム</h2>
@@ -75,7 +75,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               {/* 絵画造形教育 */}
               <section
-                className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl p-6">
+                className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl p-6 scroll-animate scroll-fade-up">
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-blue-200/50">
                     <Image
@@ -92,7 +92,7 @@ export default function Home() {
 
               {/* 英語教育 */}
               <section
-                className="bg-gradient-to-br from-green-50 to-green-100 rounded-3xl p-6">
+                className="bg-gradient-to-br from-green-50 to-green-100 rounded-3xl p-6 scroll-animate scroll-fade-up scroll-delay-100">
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-green-200/50">
                     <Image
@@ -109,7 +109,7 @@ export default function Home() {
 
               {/* プール指導 */}
               <section
-                className="bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-3xl p-6">
+                className="bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-3xl p-6 scroll-animate scroll-fade-up scroll-delay-200">
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-cyan-200/50">
                     <Image
@@ -126,7 +126,7 @@ export default function Home() {
 
               {/* 体操 */}
               <section
-                className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-3xl p-6">
+                className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-3xl p-6 scroll-animate scroll-fade-up scroll-delay-300">
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-orange-200/50">
                     <Image
@@ -143,7 +143,7 @@ export default function Home() {
 
               {/* 声楽指導 */}
               <section
-                className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-3xl p-6">
+                className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-3xl p-6 scroll-animate scroll-fade-up scroll-delay-400">
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-pink-200/50">
                     <Image
@@ -160,7 +160,7 @@ export default function Home() {
 
               {/* 自然教育 */}
               <section
-                className="bg-gradient-to-br from-green-100 to-theme-300/30 rounded-3xl p-6">
+                className="bg-gradient-to-br from-green-100 to-theme-300/30 rounded-3xl p-6 scroll-animate scroll-fade-up scroll-delay-500">
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-theme-300/50">
                     <Image
@@ -177,7 +177,7 @@ export default function Home() {
 
               {/* 中国語 */}
               <section
-                className="bg-gradient-to-br from-red-50 to-red-100 rounded-3xl p-6">
+                className="bg-gradient-to-br from-red-50 to-red-100 rounded-3xl p-6 scroll-animate scroll-fade-up scroll-delay-600">
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-red-200/50">
                     <Image
@@ -194,7 +194,7 @@ export default function Home() {
 
               {/* ローマ字指導 */}
               <section
-                className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-3xl p-6">
+                className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-3xl p-6 scroll-animate scroll-fade-up scroll-delay-700">
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-purple-200/50">
                     <Image

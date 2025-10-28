@@ -264,11 +264,11 @@ export default function AnnualEventsPage() {
 
                 {/* Event Details List */}
                 <div className="w-full">
-                    <div className="bg-white/70 rounded-3xl p-8 border border-theme-200/30 shadow-md">
+                    <div className="bg-white/70 rounded-4xl p-8 border border-theme-200/30 shadow-md">
                         <h2 className="text-2xl font-bold text-theme-600 mb-6">行事の詳細</h2>
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                             {annualEvents.map((monthData, index) => (
-                                <section key={index} className={`pb-6 scroll-animate scroll-fade-up scroll-delay-${index * 100}`}>
+                                <section key={index} className={`pb-6 scroll-animate scroll-fade-up`}>
                                     <h3 className="text-lg font-bold text-theme-600 mb-4 pb-2 border-b-2 border-theme-300">
                                         {monthData.month}
                                     </h3>
