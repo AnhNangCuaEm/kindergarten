@@ -32,7 +32,7 @@ export default function Home() {
             <p className="text-white text-base md:text-lg font-normal leading-relaxed" style={{ textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>
               ハル幼稚園へようこそ。私たちは、子ども一人ひとりの個性を大切にし、<br />心豊かな成長をサポートします。
             </p>
-            <button className="py-2 px-4 rounded-full text-black font-semibold bg-gradient-to-r from-theme-200 to-theme-300 transition-all duration-300 transform hover:scale-105 cursor-pointer">
+            <button className="py-2 px-4 rounded-full text-black font-semibold bg-gradient-to-r from-theme-200 to-theme-300 transition-all duration-300 transform hover:scale-105 cursor-not-allowed">
               詳しく見る
             </button>
           </div>
@@ -54,7 +54,7 @@ export default function Home() {
               <div className="flex w-full md:w-1/2 flex-col items-start justify-center gap-3 p-6 md:p-0">
                 <p className="text-xl md:text-2xl font-bold">子どもたちにも大人気☆待望の新園舎が完成しました！</p>
                 <p className="text-base font-normal leading-relaxed text-">明るく広々とした新しい園舎で、子どもたちは毎日元気に遊んでいます。最新の設備と安全な環境で、学びと遊びの可能性がさらに広がります。</p>
-                <button className="py-2 px-4 rounded-full text-black font-semibold bg-gradient-to-r from-theme-200 to-theme-300 transition-all duration-300 transform hover:scale-105 cursor-not-allow shadow-lg">
+                <button className="py-2 px-4 rounded-full text-black font-semibold bg-gradient-to-r from-theme-200 to-theme-300 transition-all duration-300 transform hover:scale-105 cursor-not-allowed shadow-lg">
                   もっと見る
                 </button>
               </div>
