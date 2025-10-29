@@ -91,8 +91,8 @@ const galleryImages = [
     {
         thumbnailURL: "/life_img/23.jpg",
         largeURL: "/life_img/23.jpg",
-        width: 1066,
-        height: 799,
+        width: 800,
+        height: 600,
     },
     {
         thumbnailURL: "/life_img/18.jpg",
