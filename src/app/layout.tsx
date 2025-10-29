@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "ハル幼稚園",
   description: "ハル幼稚園の公式サイトです。",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/svg/favicon.svg",
   },
 };
 

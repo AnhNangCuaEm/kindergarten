@@ -47,8 +47,8 @@ export default function Header() {
 
     // Main navigation items
     const mainNavItems = [
-        { href: "/#about", label: "園について" },
-        { href: "/#announcements", label: "お知らせ" },
+        { href: "/life", label: "園での生活" },
+        { href: "/announcements", label: "お知らせ" },
         { href: "/enrollment", label: "入園案内" },
         { href: "/access", label: "アクセス" },
     ]
@@ -67,7 +67,7 @@ export default function Header() {
                     <div className="flex items-center justify-between w-full">
                         <Link href="/" className="flex items-center">
                             <Image
-                                src="/logo.svg"
+                                src="/svg/logo.svg"
                                 alt="サイトロゴ"
                                 width={200}
                                 height={80}

@@ -6,7 +6,7 @@ export default function Footer() {
             <div>
                 <div className="flex flex-col sm:flex-row gap-8 sm:gap-24 mb-4">
                     <div>
-                        <Image src={"/logo_white.svg"} alt="Logo" width={200} height={100} className="mb-2 w-auto h-auto"/>
+                        <Image src={"/svg/logo_white.svg"} alt="Logo" width={200} height={100} className="mb-2 w-auto h-auto"/>
                         <p>〒160-0023 東京都新宿区</p>
                         <p>西新宿1-7-3</p>
                     </div>

@@ -79,7 +79,7 @@ export default function Home() {
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-blue-200/50">
                     <Image
-                      src="/paint.svg"
+                      src="/svg/paint.svg"
                       alt="絵画造形教育"
                       width={48}
                       height={48}
@@ -96,7 +96,7 @@ export default function Home() {
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-green-200/50">
                     <Image
-                      src="/earth.svg"
+                      src="/svg/earth.svg"
                       alt="英語教育"
                       width={48}
                       height={48}
@@ -113,7 +113,7 @@ export default function Home() {
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-cyan-200/50">
                     <Image
-                      src="/swim.svg"
+                      src="/svg/swim.svg"
                       alt="プール指導"
                       width={48}
                       height={48}
@@ -130,7 +130,7 @@ export default function Home() {
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-orange-200/50">
                     <Image
-                      src="/gym.svg"
+                      src="/svg/gym.svg"
                       alt="体操"
                       width={48}
                       height={48}
@@ -147,7 +147,7 @@ export default function Home() {
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-pink-200/50">
                     <Image
-                      src="/music.svg"
+                      src="/svg/music.svg"
                       alt="声楽指導"
                       width={48}
                       height={48}
@@ -164,7 +164,7 @@ export default function Home() {
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-theme-300/50">
                     <Image
-                      src="/tree.svg"
+                      src="/svg/tree.svg"
                       alt="自然教育"
                       width={48}
                       height={48}
@@ -181,7 +181,7 @@ export default function Home() {
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-red-200/50">
                     <Image
-                      src="/china.svg"
+                      src="/svg/china.svg"
                       alt="中国語"
                       width={48}
                       height={48}
@@ -198,7 +198,7 @@ export default function Home() {
                 <div className="flex flex-col items-center gap-4 h-full">
                   <div className="p-4 rounded-full bg-purple-200/50">
                     <Image
-                      src="/abc.svg"
+                      src="/svg/abc.svg"
                       alt="ローマ字指導"
                       width={48}
                       height={48}
@@ -226,7 +226,7 @@ export default function Home() {
               <section className="flex flex-col items-center gap-4 p-6 rounded-4xl bg-white/70 shadow-soft">
                 <div className="p-4 rounded-full bg-gray-300/30">
                   <Image
-                    src={"/psychology.svg"}
+                    src={"/svg/psychology.svg"}
                     height={48}
                     width={48}
                     alt="SIあそびアイコン"
@@ -238,7 +238,7 @@ export default function Home() {
               <section className="flex flex-col items-center gap-4 p-6 rounded-4xl bg-white/70 shadow-soft">
                 <div className="p-4 rounded-full bg-blue-200/30">
                   <Image
-                    src={"/palette.svg"}
+                    src={"/svg/palette.svg"}
                     height={48}
                     width={48}
                     alt="表現活動アイコン"
@@ -250,7 +250,7 @@ export default function Home() {
               <section className="flex flex-col items-center gap-4 p-6 rounded-4xl bg-white/70 shadow-soft">
                 <div className="p-4 rounded-full bg-pink-200/30">
                   <Image
-                    src={"/sports.svg"}
+                    src={"/svg/sports.svg"}
                     height={48}
                     width={48}
                     alt="体育活動アイコン"
@@ -345,7 +345,7 @@ export default function Home() {
                       <section className="bg-theme-100/80 rounded-2xl p-4 border-l-4 border-theme-400 scroll-animate scroll-fade-left">
                         <div className="flex items-center gap-2">
                           <Image
-                            src="/goal.svg"
+                            src="/svg/goal.svg"
                             alt="HAL塾ってな～に？アイコン"
                             width={24}
                             height={24}
@@ -360,7 +360,7 @@ export default function Home() {
                       <section className="bg-purple-100/80 rounded-2xl p-4 border-l-4 border-purple-400 scroll-animate scroll-fade-left scroll-delay-100">
                         <div className="flex items-center gap-2">
                           <Image
-                            src="/bright.svg"
+                            src="/svg/bright.svg"
                             alt="私たちの想いアイコン"
                             width={24}
                             height={24}
@@ -375,7 +375,7 @@ export default function Home() {
                       <section className="bg-pink-100/80 rounded-2xl p-4 border-l-4 border-pink-400 scroll-animate scroll-fade-left scroll-delay-200">
                         <div className="flex items-center gap-2">
                           <Image
-                            src="/books.svg"
+                            src="/svg/books.svg"
                             alt="カリキュラムの特徴アイコン"
                             width={24}
                             height={24}

@@ -26,7 +26,7 @@ export default function EnrollmentPage() {
                         <section className="bg-gradient-to-br from-blue-50 to-blue-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow scroll-animate scroll-fade-right">
                             <div className="flex items-center gap-2 mb-4">
                                 <Image
-                                    src={"/kid.svg"}
+                                    src={"/svg/kid.svg"}
                                     width={32}
                                     height={32}
                                     alt="対象年齢"
@@ -53,7 +53,7 @@ export default function EnrollmentPage() {
                         <section className="bg-gradient-to-br from-green-50 to-green-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow scroll-animate scroll-fade-left scroll-delay-100">
                             <div className="flex items-center gap-2 mb-4">
                                 <Image
-                                    src={"/time.svg"}
+                                    src={"/svg/time.svg"}
                                     width={32}
                                     height={32}
                                     alt="時間"
@@ -80,7 +80,7 @@ export default function EnrollmentPage() {
                         <section className="bg-gradient-to-br from-yellow-50 to-yellow-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow scroll-animate scroll-fade-right scroll-delay-200">
                             <div className="flex items-center gap-2 mb-4">
                                 <Image
-                                    src={"/note.svg"}
+                                    src={"/svg/note.svg"}
                                     width={32}
                                     height={32}
                                     alt="入園手続き"
@@ -111,7 +111,7 @@ export default function EnrollmentPage() {
                         <section className="bg-gradient-to-br from-pink-50 to-pink-100/30 rounded-3xl p-6 md:p-8 shadow-md hover:shadow-lg transition-shadow scroll-animate scroll-fade-left scroll-delay-300">
                             <div className="flex items-center gap-2 mb-4">
                                 <Image
-                                    src={"/money.svg"}
+                                    src={"/svg/money.svg"}
                                     width={32}
                                     height={32}
                                     alt="費用について"

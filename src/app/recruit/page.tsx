@@ -149,7 +149,7 @@ export default function RecruitPage() {
                                 <div>
                                     <h4 className="flex gap-2 items-center font-bold text-text-main mb-2">
                                         <Image
-                                            src="/calendar.svg"
+                                            src="/svg/calendar.svg"
                                             alt="勤務時間 Icon"
                                             width={24}
                                             height={24}
@@ -173,7 +173,7 @@ export default function RecruitPage() {
                                 <div>
                                     <h4 className="flex gap-2 items-center font-bold text-text-main mb-2">
                                         <Image
-                                            src="/money.svg"
+                                            src="/svg/money.svg"
                                             alt="給与 Icon"
                                             width={24}
                                             height={24}
@@ -201,7 +201,7 @@ export default function RecruitPage() {
                                 <div>
                                     <h4 className="flex gap-2 items-center font-bold text-text-main mb-1">
                                         <Image
-                                            src="/medic.svg"
+                                            src="/svg/medic.svg"
                                             alt="保険・福利厚生 Icon"
                                             width={24}
                                             height={24}
@@ -216,7 +216,7 @@ export default function RecruitPage() {
                                 <div>
                                     <h4 className="flex gap-2 items-center font-bold text-text-main mb-1">
                                         <Image
-                                            src="/graduation.svg"
+                                            src="/svg/graduation.svg"
                                             alt="研修・成長 Icon"
                                             width={24}
                                             height={24}
@@ -230,7 +230,7 @@ export default function RecruitPage() {
                                 <div>
                                     <h4 className="flex gap-2 items-center font-bold text-text-main mb-1">
                                         <Image
-                                            src="/friendly.svg"
+                                            src="/svg/friendly.svg"
                                             alt="シフト対応 Icon"
                                             width={24}
                                             height={24}
@@ -245,7 +245,7 @@ export default function RecruitPage() {
                                 <div>
                                     <h4 className="flex gap-2 items-center font-bold text-text-main mb-1">
                                         <Image
-                                            src="/heart.svg"
+                                            src="/svg/heart.svg"
                                             alt="職場環境 Icon"
                                             width={24}
                                             height={24}

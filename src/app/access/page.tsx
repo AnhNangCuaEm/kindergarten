@@ -7,8 +7,14 @@ export default function AccessPage() {
         <div className="flex flex-col items-center min-h-screen">
             <Header />
             <main className="flex flex-col flex-1 px-4 pt-32 row-start-2 items-center sm:items-start">
+                {/* Hero Section */}
+                <section className="w-full text-center">
+                    <h1 className="text-3xl md:text-4xl font-bold text-theme-600 mb-8">
+                        アクセス
+                    </h1>
+                </section>
+
                 <section className="w-full md:w-4xl scroll-animate scroll-fade-up">
-                    <h1 className="w-full text-3xl md:text-4xl text-center font-bold text-theme-600 mb-12">アクセス</h1>
                     <h2 className="text-lg text-center font-semibold mb-4">
                         〒160-0023 東京都新宿区西新宿1-7-3
                     </h2>

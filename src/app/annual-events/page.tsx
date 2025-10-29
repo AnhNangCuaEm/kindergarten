@@ -229,25 +229,25 @@ const annualEvents: Event[] = [
 ];
 
 const iconMap: { [key: string]: string } = {
-    graduation: "/graduation.svg",
-    party: "/party.svg",
-    tree: "/tree.svg",
-    heart: "/heart.svg",
-    goal: "/goal.svg",
-    sofa: "/sofa.svg",
-    watermelon: "/watermelon.svg",
-    potato: "/potato.svg",
-    swim: "/swim.svg",
-    paint: "/paint.svg",
-    music: "/music.svg",
-    snowman: "/snowman.svg",
-    time: "/time.svg",
-    bright: "/bright.svg",
-    gym: "/gym.svg",
-    sports: "/sports.svg",
-    friendly: "/friendly.svg",
-    earth: "/earth.svg",
-    note: "/note.svg"
+    graduation: "/svg/graduation.svg",
+    party: "/svg/party.svg",
+    tree: "/svg/tree.svg",
+    heart: "/svg/heart.svg",
+    goal: "/svg/goal.svg",
+    sofa: "/svg/sofa.svg",
+    watermelon: "/svg/watermelon.svg",
+    potato: "/svg/potato.svg",
+    swim: "/svg/swim.svg",
+    paint: "/svg/paint.svg",
+    music: "/svg/music.svg",
+    snowman: "/svg/snowman.svg",
+    time: "/svg/time.svg",
+    bright: "/svg/bright.svg",
+    gym: "/svg/gym.svg",
+    sports: "/svg/sports.svg",
+    friendly: "/svg/friendly.svg",
+    earth: "/svg/earth.svg",
+    note: "/svg/note.svg"
 };
 
 export default function AnnualEventsPage() {
