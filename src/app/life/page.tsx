@@ -120,7 +120,7 @@ export default function LifePage() {
             <Header />
             <main className="flex flex-col flex-1 px-4 pt-24 pb-12 gap-16 items-center w-full max-w-6xl mx-auto">
                 {/* Hero Section */}
-                <section className="w-full text-center pt-8">
+                <section className="w-full text-center pt-8 scroll-animate scroll-fade-up">
                     <h1 className="text-3xl md:text-4xl font-bold text-theme-600 mb-4">
                         園での生活
                     </h1>

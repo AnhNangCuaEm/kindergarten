@@ -42,7 +42,7 @@ export default function SimpleGallery({ galleryID, images }: SimpleGalleryProps)
                     key={galleryID + '-' + index}
                     target="_blank"
                     rel="noreferrer"
-                    className="overflow-hidden rounded-lg transition-transform duration-300 hover:scale-105"
+                    className="overflow-hidden rounded-lg transition-transform duration-300 hover:scale-105 scroll-animate scroll-fade-up"
                 >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img 
